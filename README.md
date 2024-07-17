@@ -1,40 +1,20 @@
 # [SDF05] CSS Magic Buttons
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
+As required from activity, I used CSS to style and animate 3 buttons ine the following ways:
 
-## Learning Goals
+## button 1 (.btn-1)
+I changed the font-size and weight.
+I added color and a 5px box-shadow bottom.
+And made it so that on-click, the box-shadow would disappear, simulating a pushed-down effect as a physical button.
 
-By completing this project, you will learn to:
+## button 2 (.btn-2)
 
-- Design engaging button animations with CSS.
-- Master the use of CSS transitions and animations for interactive effects.
+I changed the font-weight and font-size.
+Gave it color.
+I made the :hover effect that the button would have texture by giving it box-shadow on the right and at the bottom. The baackground color and text color will also trade place when hovering the button
+On-click, the button will have no box-shadow simulating the same pushed-down effect as .btn-1 
 
-![alt text](./images/image.png)
-
-## Project Overview
-
-### Time Estimate: 2 hours
-
-## What you Need to Do:
-
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
-
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_5R_StudentNo_Classcode_Group_Name-Surname_SDF05R
-
-2. **Write your CSS Styles**: Create your animations from scratch. Need a hint of inspiration? You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
-
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
-
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
-
-
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+## button 3 (button 3)
+I gave button 3 a larger border.
+Then when hovering the button, there a touch of white light that translates the button. I used a @keyframes animation to accomplish this transition of light beeing eased-in from the left to the right of the button.
+I aslo adjusted the color to make the transition easier to spot as it glosses over the button.
